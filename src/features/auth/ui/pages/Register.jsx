@@ -61,7 +61,7 @@ export default function Register() {
   <div className="relative z-10 flex flex-col justify-between h-full p-10 text-white">
 
     <h2 className="text-xl font-bold">
-      Synthetix AI
+      TEAM-SYNC
     </h2>
 
     <div>
