@@ -10,6 +10,7 @@ export let useAuth = () => {
   const {
     register,
     handleSubmit,
+    control,
     formState: { errors },
   } = useForm();
 
@@ -24,6 +25,7 @@ export let useAuth = () => {
   return {
     register,
     handleSubmit,
+    control,
     errors,
     onRegisterSubmit,
     onLoginSubmit,
